@@ -38,6 +38,32 @@
 		.s1 { text-shadow: 4px 4px 5px black; }
 		.s2 { text-shadow: 2px 2px 2px black; }
 		.s3 { text-shadow: 1px 1px 1px black; }
+		/* 기본 네비게이션 배경 및 텍스트 색상 설정 */
+        .bg-2a2a2a {
+            background-color: #2a2a2a !important;
+        }
+
+        /* 기본 링크 색상 설정 */
+        .bg-2a2a2a .nav-link {
+            color: white !important;
+            transition: color 0.3s ease-in-out; /* 부드러운 색상 전환 효과 */
+        }
+
+        /* 마우스를 올렸을 때 색상이 더 밝아지도록 설정 */
+        .bg-2a2a2a .nav-link:hover {
+            color: #90ee90 !important; /* 연한 회색 */
+        }
+
+		.border-bottom {
+	    color: red !important;
+	    text-decoration: none; /* 기본 밑줄 제거 */
+	    transition: color 0.3s ease-in-out; /* 부드러운 색상 전환 */
+		}
+
+		.border-bottom:hover {
+		    color: darkred !important; /* 마우스 오버 시 진한 빨간색 */
+		}
+
 	</style>
 	<meta charset="utf-8">
 	<title>와썹</title>
@@ -46,7 +72,7 @@
 	<meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="https://raw.githubusercontent.com/borinet-dev/img/main/wassub_icon.ico" rel="icon">
+    <link href="https://borinet-dev.github.io/img/wassub_icon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -58,9 +84,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="https://borinet-dev.github.io/css/css/animate/animate.min.css" rel="stylesheet">
-    <link href="https://borinet-dev.github.io/css/css/owl.carousel.css" rel="stylesheet">
-    <link href="https://borinet-dev.github.io/css/css/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="https://borinet-dev.github.io/css/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="https://borinet-dev.github.io/css/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://borinet-dev.github.io/css/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="https://borinet-dev.github.io/css/css/bootstrap.min.css" rel="stylesheet">
@@ -71,7 +97,7 @@
 	<link href="https://borinet-dev.github.io/css/css/style3.css" rel="stylesheet">
 </head>
 
-<body>
+<body style="color: #ffffff; background-color: #2a2a2a;">
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
@@ -79,7 +105,7 @@
     <!-- Spinner End -->
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+    <nav class="navbar navbar-expand-lg bg-2a2a2a navbar-light sticky-top p-0">
         <a href="https://l2wassub.org" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <img src="https://raw.githubusercontent.com/borinet-dev/img/main/logo_wassub.png" style="max-width: auto; height: auto;">
         </a>
@@ -107,31 +133,29 @@
 
 
     <!-- Start -->
-<div id="viewer" class="white viewer_style rd_nav_blk">
-	<div id="bd_7139_123793" class="bd clear   hover_effect" data-default_style="viewer" data-bdfilestype="" data-bdnavside="N" style="max-width:px">
+<div style="color: white;" id="viewer" class="white viewer_style rd_nav_blk">
+	<div style="background-color: #2a2a2a; color: white; id="bd_7139_123793" class="bd clear   hover_effect" data-default_style="viewer" data-bdfilestype="" data-bdnavside="N" style="max-width:px">
 	<article>
 
 		<div class="document_123793_4 xe_content">
 <p><span style="color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px; box-sizing: border-box; font-weight: bolder;"><span style="box-sizing: border-box; color: rgb(51, 102, 153);">
 <img src="https://fizz-download.playnccdn.com/lg/file/lin2/download/186955c08eb-f046b605-394c-4e63-b744-c984be6c3cb8" alt="main" width="650" height="300" editor_component="image_link" /></span></span></p>
 <p><br /></p>
-<div style="background-color: rgb(255, 255, 255); box-sizing: border-box; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;"><span style="color: rgb(51, 102, 153);">● 이벤트 기간</span></div>
-<div style="background-color: rgb(255, 255, 255); box-sizing: border-box; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;">-&nbsp;<strong>2024년 4월 7일(일) 까지</strong></div>
-<div style="background-color: rgb(255, 255, 255); box-sizing: border-box; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;">&nbsp;</div>
-<div style="box-sizing: border-box; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;">
-	<img src="https://raw.githubusercontent.com/borinet-dev/spring/main/banner-1.png" alt="가을+맞이+선물받기_띠.png" style="height: auto;" editor_component="image_link" /></div>
-<div style="box-sizing: border-box; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;">
+<p style="line-height: 25px; font-family: sans-serif; letter-spacing: -1px; font-size: 20px; font-weight: bold; color: rgb(255, 177, 26); text-shadow: midnightblue 1px 1px 1.2px; border-bottom: 3px solid rgb(255, 177, 26);">이벤트 기간: 4월 18일(금) 17시 까지</p>
+<p><strong style="color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;"><br /></strong></p>
+<p><strong style="color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;">
+<img src="https://raw.githubusercontent.com/borinet-dev/newyear/main/start_1.png" width="650" height="43" editor_component="image_link" /></strong></p>
 <p><br /></p>
 <img src="https://raw.githubusercontent.com/borinet-dev/spring/main/npc.jpg" alt="main" width="650" height="392" editor_component="image_link" />
-<table border="1" cellpadding="0" cellspacing="0" style="font-family: Tahoma, Geneva, sans-serif; font-size: 12px; line-height: 1.5; border-collapse: collapse; border: none; empty-cells: show; max-width: 100%; width: 880px;">
+<table border="1" cellpadding="0" cellspacing="0" style="color: white; font-family: Tahoma, Geneva, sans-serif; font-size: 12px; line-height: 1.5; border-collapse: collapse; border: none; empty-cells: show; max-width: 100%; width: 880px;">
 	<tbody><tr>
-		<td style="text-align: center;"><span style="box-sizing: border-box; font-weight: 700; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); letter-spacing: 0px !important; font-size: 15px;">[이벤트 NPC – 코코 브리즈]</span></td>
+		<td style="text-align: center;"><span style="box-sizing: border-box; font-weight: 700; letter-spacing: 0px !important; font-size: 15px;">[이벤트 NPC – 코코 브리즈]</span></td>
 	</tr></tbody>
 </table>
 <div style="box-sizing: border-box;">&nbsp;</div>
 
 <div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
-<span style="color: rgb(0, 112, 192); font-weight: 700; font-size: 14px;">1. 각 마을 이벤트 NPC 코코 브리즈를 통해, [꽃 비가 내리는 아름다운 밤] 버프를 받을 수 있습니다.</span>
+<span style="color: yellow; font-weight: 700; font-size: 14px;">1. 각 마을 이벤트 NPC 코코 브리즈를 통해, [꽃 비가 내리는 아름다운 밤] 버프를 받을 수 있습니다.</span>
 <div class="tableWrapper" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
 <table style="margin: 0px; padding: 0px; border: none; vertical-align: baseline; border-collapse: collapse; border-spacing: 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-x: auto; text-wrap: nowrap; display: block; empty-cells: show; max-width: 100%; table-layout: fixed; width: 785.273px; letter-spacing: 0px !important;">
 <colgroup style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); letter-spacing: 0px !important;">
@@ -154,17 +178,17 @@
 <div class="fe-image-inner" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative; display: inline-block; width: max-content; letter-spacing: 0px !important;">
 <img src="https://fizz-download.playnccdn.com/lg/file/lin2/download/186955c433a-f22eec1b-a16b-4813-8a79-99405b6a9290" alt="4. 빛의 가호.png" class="fe-image" style="box-sizing: border-box; border-style: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); vertical-align: middle; cursor: pointer; min-width: auto; letter-spacing: 0px !important;" editor_component="image_link" /></div></div></div>
 <div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-align: center; letter-spacing: 0px !important;">
-<span style="font-size: 13px;"><strong>꽃 비가 내리는 아름다운 밤</strong></span></div></td>
+<span style="color: white; font-size: 13px;"><strong>꽃 비가 내리는 아름다운 밤</strong></span></div></td>
 <td data-colwidth="766" style="box-sizing: border-box; margin: 0px; padding: 4px 8px; border: 1px solid rgb(221, 221, 221); vertical-align: middle; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative; letter-spacing: 0px !important;" class="">
 <div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-align: center; letter-spacing: 0px !important;">
-<span style="font-size: 15px;"><strong><span style="font-size: 13px;">4시간 동안 유지되며,</span><br /><span style="font-size: 13px;"> 1시간마다 [봄의 기억] 1개를 받을 수 있다.</span></strong></span></div></td></tr></tbody></table></div>
-		<div style="background-color: rgb(255, 255, 255); box-sizing: border-box; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;">
-		<span style="font-size: 12px;"><strong>※</strong><span style="color: rgb(158, 147, 147);">&nbsp;</span><strong><span style="color: rgb(255, 0, 0);">계정당 1일 1회 받을 수 있습니다.</span></strong></span></div>
+<span style="font-size: 15px;"><strong><span style="color: white; font-size: 13px;">4시간 동안 유지되며,</span><br /><span style="color: white; font-size: 13px;"> 1시간마다 [봄의 기억] 1개를 받을 수 있다.</span></strong></span></div></td></tr></tbody></table></div>
+		<div style="box-sizing: border-box; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;">
+		<span style="color: white; font-size: 12px;"><strong>※</strong><span style="color: rgb(158, 147, 147);">&nbsp;</span><strong><span style="color: rgb(255, 0, 0);">계정당 1일 1회 받을 수 있습니다.</span></strong></span></div>
 <br>
 <div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
-<span style="color: rgb(0, 112, 192); font-weight: 700; font-size: 13px;">2. ‘봄의 기억’ 아이템 사용 시 정해진 확률에 따라 아래 아이템 중 1종을 획득할 수 있습니다.</span><br /></div>
+<span style="color: yellow; font-weight: 700; font-size: 13px;">2. ‘봄의 기억’ 아이템 사용 시 정해진 확률에 따라 아래 아이템 중 1종을 획득할 수 있습니다.</span><br /></div>
 
-<div class="tableWrapper" style="box-sizing: border-box; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0.93); font-size: 18px; background-color: rgb(255, 255, 255);">
+<div class="tableWrapper" style="box-sizing: border-box; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: white; font-size: 18px;">
 <div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); background-color: rgb(255, 255, 255);">
 <div data-contents-type="text" style="box-sizing: border-box; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0.93); font-size: 18px;"></div></div><span style="font-size: 14px;">
 </span>
@@ -279,7 +303,11 @@
 </strong></span><div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-align: center; letter-spacing: 0px !important;"><strong><span style="font-size: 14px;">각종 재료아이템</span><br /></strong></div></td><td style="box-sizing: border-box; margin: 0px; padding: 4px 8px; border: 1px solid rgb(221, 221, 221); vertical-align: middle; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative; letter-spacing: 0px !important;" class=""><div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-align: center; letter-spacing: 0px !important;"><span style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); letter-spacing: 0px !important;"><strong><span style="letter-spacing: 0px; font-size: 14px;">1 ~ 5</span><span style="font-size: 14px;">개</span></strong></span></div></td></tr>
 
 </tbody></table><p><br /></p>
-<div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><br /></div><div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><div class="fr-image" contenteditable="false" data-contents-json="{&quot;src&quot;:&quot;banner-2.png&quot;,&quot;width&quot;:null,&quot;height&quot;:null}" data-contents-type="image" draggable="true" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: 0; letter-spacing: 0px !important;"><div class="fe-image-inner" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative; display: inline-block; letter-spacing: 0px !important;"><img src="https://raw.githubusercontent.com/borinet-dev/spring/main/banner-2.png" class="fe-image" style="box-sizing: border-box; border-style: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); vertical-align: middle; cursor: pointer; letter-spacing: 0px !important;" editor_component="image_link" /></div></div></div><div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><br /></div><div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); letter-spacing: 0px !important; font-size: 13px;"><strong>1. 이벤트 NPC 코코 브리즈를 통해 1억 아데나로 [롤리팝]을 획득할 수 있습니다.</strong></span></div><table style="margin: 0px; padding: 0px; border: none; vertical-align: baseline; border-collapse: collapse; border-spacing: 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-x: auto; text-wrap: nowrap; display: block; empty-cells: show; max-width: 100%; table-layout: fixed; width: 1180px; letter-spacing: 0px !important;">
+<div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><br /></div><div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><div class="fr-image" contenteditable="false" data-contents-json="{&quot;src&quot;:&quot;banner-2.png&quot;,&quot;width&quot;:null,&quot;height&quot;:null}" data-contents-type="image" draggable="true" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: 0; letter-spacing: 0px !important;"><div class="fe-image-inner" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative; display: inline-block; letter-spacing: 0px !important;"><img src="https://raw.githubusercontent.com/borinet-dev/spring/main/banner-2.png" class="fe-image" style="box-sizing: border-box; border-style: none; vertical-align: middle; cursor: pointer; letter-spacing: 0px !important;" editor_component="image_link" /></div></div></div>
+<div data-contents-type="text" style="box-sizing: border-box;"><br /></div>
+<div data-contents-type="text" style="box-sizing: border-box;">
+<span style="color: yellow; box-sizing: border-box; letter-spacing: 0px !important; font-size: 13px;">
+<strong>1. 이벤트 NPC 코코 브리즈를 통해 1억 아데나로 [롤리팝]을 획득할 수 있습니다.</strong></span></div><table style="margin: 0px; padding: 0px; border: none; vertical-align: baseline; border-collapse: collapse; border-spacing: 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-x: auto; text-wrap: nowrap; display: block; empty-cells: show; max-width: 100%; table-layout: fixed; width: 1180px; letter-spacing: 0px !important;">
 <colgroup style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); letter-spacing: 0px !important;">
 <col style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); letter-spacing: 0px !important;" />
 <col style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); letter-spacing: 0px !important;" />
@@ -340,8 +368,8 @@
 </tbody>
 </table>
 </div>
-<div style="background-color: rgb(255, 255, 255); box-sizing: border-box; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;">
-<span style="font-size: 12px;"><strong>※</strong><span style="color: rgb(158, 147, 147);">&nbsp;</span><strong><span style="color: rgb(255, 0, 0);">롤리팝 아이템 2종의 효과는 모두 적용되며, 사용 시 아이템이 사라지지 않습니다.<br>(1일 10회 사용제한 아이템)</span></strong></span></div>
+<div style="box-sizing: border-box; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;">
+<span style="color: white; font-size: 12px;"><strong>※</strong><span style="color: rgb(158, 147, 147);">&nbsp;</span><strong><span style="color: rgb(255, 0, 0);">롤리팝 아이템 2종의 효과는 모두 적용되며, 사용 시 아이템이 사라지지 않습니다.<br>(1일 10회 사용제한 아이템)</span></strong></span></div>
 </div>
 
 <div data-contents-type="text" style="box-sizing: border-box; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0.93); font-size: 18px;"><br /></div><div data-contents-type="text" style="box-sizing: border-box; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0.93); font-size: 18px;"><span style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); letter-spacing: 0px !important;">
@@ -355,12 +383,9 @@
 <div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); letter-spacing: 0px !important;">
 <br />
 </div>
-<div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); letter-spacing: 0px !important;">
-<div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
-<strong><span style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); letter-spacing: 0px !important; font-size: 13px;">1. 이벤트 기간 76레벨 이상 모든 사냥터에서 몬스터 사냥 시 정해진 확률에 따라</span><span style="font-size: 13px;">
-</span></strong></div><span style="font-size: 13px;"><strong>
-</strong></span><div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><strong><span style="font-size: 13px;">
-</span><span style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); letter-spacing: 0px !important; font-size: 13px;">[봄의 기억]을 획득할 수 있습니다.</span></strong>
+<div data-contents-type="text" style="color: white; box-sizing: border-box; letter-spacing: 0px !important;">
+<div data-contents-type="text" style="box-sizing: border-box;">
+<strong><span style="color: yellow; box-sizing: border-box; letter-spacing: 0px !important; font-size: 13px;">1. 이벤트 기간 76레벨 이상 모든 사냥터에서 몬스터 사냥 시 정해진 확률에 따라<br>[봄의 기억]을 획득할 수 있습니다.</span></strong>
 </div>
 <div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
 <span style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); letter-spacing: 0px !important;">
@@ -368,13 +393,14 @@
 </span>
 </div>
 </div>
-<div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(31, 31, 31); letter-spacing: 0px !important; font-size: 13px;"><strong>2. 이벤트 기간에는 몬스터 사냥 시 [새콤달콤 쌉쌀한 허브]가 추가 드롭됩니다.</strong></span>
+<div data-contents-type="text" style="box-sizing: border-box; color: white; letter-spacing: 0px !important;">
+<span style="color: yellow; box-sizing: border-box; letter-spacing: 0px !important; font-size: 13px;">
+<strong>2. 이벤트 기간에는 몬스터 사냥 시 [새콤달콤 쌉쌀한 허브]가 추가 드롭됩니다.</strong></span>
 </div>
 <div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); letter-spacing: 0px !important;">
 <div class="tableWrapper" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
 <table style="margin: 0px; padding: 0px; border: none; vertical-align: baseline; border-collapse: collapse; border-spacing: 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); overflow-x: auto; text-wrap: nowrap; display: block; empty-cells: show; max-width: 100%; table-layout: fixed; width: 1180px; letter-spacing: 0px !important;">
-<tbody style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); letter-spacing: 0px !important;">
+<tbody style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: white; letter-spacing: 0px !important;">
 <tr style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); letter-spacing: 0px !important;">
 <td style="box-sizing: border-box; margin: 0px; padding: 4px 8px; border: 1px solid rgb(221, 221, 221); vertical-align: middle; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative; background-color: rgb(0, 112, 192); letter-spacing: 0px !important;">
 <div data-contents-type="text" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-align: center; letter-spacing: 0px !important;">
@@ -415,17 +441,17 @@
 </span>
 </div></div>
 
-<span style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(31, 31, 31); letter-spacing: 0px !important; font-size: 13px;">
+<span style="color: yellow; box-sizing: border-box; letter-spacing: 0px !important; font-size: 13px;">
 <strong>3. 이벤트 기간동안 [이벤트 NPC 코코 브리즈]를 통해 아래 쿠폰번호를 입력시 푸짐한 선물이!!</strong></span><br>
 <img src="https://raw.githubusercontent.com/borinet-dev/spring/main/coupons.png" alt="main" width="590" height="250" editor_component="image_link" />
-		<div style="background-color: rgb(255, 255, 255); box-sizing: border-box; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;">
+		<div style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;">
 		<span style="font-size: 12px;"><strong>※</strong><span style="color: rgb(158, 147, 147);">&nbsp;</span><strong><span style="color: rgb(255, 0, 0);">쿠폰으로 획득한 아이템은 교환/드롭/판매/파쇄/창고보관이 불가능 합니다.</span></strong></span></div>
 </div></div></div></article></div></div>
 
 </div>
 </div></div>
    <!-- End -->
-        
+<br><br>
 
     <!-- Copyright Start -->
     <div class="container-fluid copyright py-4">
